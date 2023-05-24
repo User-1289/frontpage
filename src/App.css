@@ -1,7 +1,9 @@
 body{
   font-family: sans-serif;
 }
-
+h2,h3{
+  text-align: center;
+}
 .log-txt{
   color: black;
   position: absolute;

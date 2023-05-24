@@ -4,7 +4,7 @@ import './container.css'; // Import your CSS file
 const Container = () => {
   return (
     <>
-    <div onClick={ () => {window.open("https://deverse.space", "_blank")}} className="container-1">
+    <div onClick={ () => {window.open("https://news.deverse.space", "_blank")}} className="container-1">
       <div style={{color:"white"}} className="content">
         <span className='header-txt'>News</span><br/>
         <span className='sub-header'>Read news and <br/>search on the go</span>
