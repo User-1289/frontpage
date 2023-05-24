@@ -1,6 +1,13 @@
 body{
   font-family: sans-serif;
 }
+
+.name-txt{
+  font-family: 'Mansalva', cursive;
+  color: black;
+  text-shadow: 0 0 5px black, 0 0 10px white, 0 0 15px white;
+  font-size: 30px;
+}
 h2,h3{
   text-align: center;
 }
