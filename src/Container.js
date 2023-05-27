@@ -1,6 +1,6 @@
 import React from 'react';
 import './container.css'; // Import your CSS file
-
+import Footer from './Footer';
 const Container = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Container = () => {
       </div>
     </div>
     <div className="container-2">
-      <div style={{color:"black", position:'absolute'}} className="content">
+      <div style={{color:"white", position:'absolute'}} className="content">
         <span className='header-txt'>Facts</span><br/>
         <span className='sub-header'>Discover surprising,<br/>mindblowing facts</span>
       </div>
@@ -34,6 +34,7 @@ const Container = () => {
         <span className='sub-header'>Test your knowledge<br/>and have some fun</span>
       </div>
     </div>
+
     </>
   );
 };

@@ -27,3 +27,19 @@ h2,h3{
   left:95%;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .log-txt{
+    font-size: 15px;
+    left:65%;
+    position: absolute;
+    top:1%;
+    gap:5px;
+  }
+  .sign-txt{
+    position: absolute;
+    top:1%;
+    font-size: 15px;
+    left:75%;
+  }
+}

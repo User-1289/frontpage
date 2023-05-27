@@ -132,4 +132,39 @@
   }
   
 
-  
+  @media (max-width: 800px) {
+    .container-1{
+      width: 30%;
+      height:200px;
+      left:10%;
+    }
+    .container-2{
+      width: 30%;
+      height:200px;
+      position: absolute;
+      left:50%;
+      color: white;
+      
+    }
+    .container-3{
+      width: 30%;
+      height:200px;
+      position: absolute;
+      top:60%;
+        left:10%;
+    }
+    .container-4{
+      width:30%;
+      height:200px;
+      position: absolute;
+      top:60%;
+      left:50%;
+    }
+    .container-5{
+      width: 30%;
+      height:200px;
+      position: absolute;
+      top:95%;
+      left:30%;
+    }
+  }
