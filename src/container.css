@@ -7,6 +7,7 @@
     width: 350px;
     height: 200px;
     position: absolute;
+    left:20%;
     background-position: center;
     margin: 10px;
   }
@@ -23,18 +24,22 @@
   background-color: rgba(0, 0, 0, 0.5); /* Dimmed overlay color */
   }
   .container-2 {
+    transition: transform 0.5s; /* Add a smooth transition effect */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border: 1px solid black;
     position:"absolute"; 
-    left:35%;
-    background-image: url("facts-2.jpg");
+    left:50%;
+    background-image: url("todo.jpg");
     background-size: cover;
     width: 350px;
     height: 200px;
     position: absolute;
     background-position: center;
     margin: 10px;
+  }
+  .container-2:hover{
+    transform: scale(1.1); /* Increase the scale value for a larger zoom effect */
   }
   .container-2::before{
     content: '';
@@ -46,18 +51,23 @@
   background-color: rgba(0, 0, 0, 0.5); /* Dimmed overlay color */
   }
   .container-3 {
+    transition: transform 0.5s; /* Add a smooth transition effect */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border: 1px solid black;
     position:"absolute"; 
-    left:70%;
-    background-image: url("todo.jpg");
+    top:63%;
+    left:50%;
+    background-image: url("weather.jpg");
     background-size: cover;
     width: 350px;
     height: 200px;
     position: absolute;
     background-position: center;
     margin: 10px;
+  }
+  .container-3:hover{
+    transform: scale(1.1); /* Increase the scale value for a larger zoom effect */
   }
   .container-3::before{
     content: '';
@@ -69,19 +79,24 @@
   background-color: rgba(0, 0, 0, 0.5); /* Dimmed overlay color */
   }
   .container-4 {
+    transition: transform 0.5s; /* Add a smooth transition effect */
+
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border: 1px solid black;
     position:"absolute"; 
     top:63%;
-
-    background-image: url("weather.jpg");
+    left:20%;
+    background-image: url("quiz.jpg");
     background-size: cover;
     width: 350px;
     height: 200px;
     position: absolute;
     background-position: center;
     margin: 10px;
+  }
+  .container-4:hover{
+    transform: scale(1.1); /* Increase the scale value for a larger zoom effect */
   }
   .container-4::before{
     content: '';
@@ -94,12 +109,13 @@
   }
 
   .container-5 {
+    transition: transform 0.5s; /* Add a smooth transition effect */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border: 1px solid black;
     position:"absolute"; 
     top:63%;
-    left:35%;
+    left:70%;
     background-image: url("quiz.jpg");
     background-size: cover;
     width: 350px;
@@ -107,6 +123,9 @@
     position: absolute;
     background-position: center;
     margin: 10px;
+  }
+  .container-5:hover{
+    transform: scale(1.1); /* Increase the scale value for a larger zoom effect */
   }
   .container-5::before{
     content: '';
@@ -132,7 +151,7 @@
   }
   
 
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
     .container-1{
       width: 30%;
       height:200px;
