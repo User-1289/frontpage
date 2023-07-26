@@ -33,7 +33,7 @@
     height: 25px;
     
   }
-  @media (max-width: 1006px) {
+  @media (max-width: 1100px) {
       .text-footer{
         padding: 5%;
       }
