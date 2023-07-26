@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import twitter from './twitter.png';
+import twitter from './twitter-new.png';
 import facebook from './facebook.png'
 export default function Footer() {
   function openTwitter()
