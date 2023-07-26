@@ -5,7 +5,7 @@ import facebook from './facebook.png'
 export default function Footer() {
   function openTwitter()
   {
-    window.open("_blank", "https://twitter.com/Dev22Web")
+    window.open("https://twitter.com/Dev22Web","_blank", )
   }
   return (
     <footer className='footer'>
