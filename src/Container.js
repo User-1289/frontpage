@@ -23,7 +23,7 @@ const Container = () => {
         <span className='sub-header'>Check the climate of<br/> your surroundings</span>
       </div>
     </div>
-    <div onClick={ () => {window.open("https://quiz.deverse.space","_blank")}} className="container-4">
+    <div onClick={ () => {window.open("https://quizhub.deverse.space","_blank")}} className="container-4">
       <div style={{color:"white"}}  className="content">
         <span className='header-txt'>Quiz</span><br/>
         <span className='sub-header'>Test your knowledge<br/>and have some fun</span>
